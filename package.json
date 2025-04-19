@@ -1,0 +1,19 @@
+{
+  "name": "codeki-easy",
+  "version": "1.0.0",
+  "description": "A lightweight yet powerful platform designed to streamline development and testing workflows.",
+  "main": "src/init.cli.js",
+  "author": "rikisetiyopambudi@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "figlet": "^1.8.1",
+    "inquirer": "^12.5.2"
+  },
+  "bin": {
+    "codeki": "./src/init.cli.js"
+  },
+  "scripts": {
+    "start": "node src/init.cli.js"
+  }
+}
